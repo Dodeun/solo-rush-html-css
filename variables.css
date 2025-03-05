@@ -55,4 +55,5 @@
 
   /* transition */
   --transition-background: background-color 0.3s ease;
+  --transition-scale: transform 0.3s ease-out;
 }

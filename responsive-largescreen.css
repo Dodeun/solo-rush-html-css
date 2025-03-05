@@ -50,3 +50,11 @@ nav a span:hover {
   justify-content: space-between;
   flex-direction: row;
 }
+
+.card {
+  transition: var(--transition-scale);
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
