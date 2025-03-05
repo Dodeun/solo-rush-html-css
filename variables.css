@@ -1,4 +1,58 @@
+/* FONTS */
+
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* VARIABLES */
+
 :root {
-  --background-test: red;
-  --background-test2: blue;
+  /* palette */
+  --color-1: #137ec6;
+  --color-2: #354a54;
+  --color-3: #99aebb;
+  --color-4: #b179a9;
+  --color-dark: #333;
+  --color-light: #f8f8f8;
+
+  /* fonts */
+  --font-family-title: "Shippori Antique", sans-serif;
+  --font-family-text: "Roboto Condensed", sans-serif;
+  --font-weight-main-title: 900;
+  --font-weight-btn: 700;
+  --font-size-mobile: 18px;
+  --font-size-desktop: 20px;
+  --font-size-big: 2rem;
+  --font-size-medium: 1.4rem;
+  --color-primary: var(--color-1);
+  --color-secondary: var(--color-3);
+  --color-accent: var(--color-4);
+  --color-text-dark: var(--color-dark);
+  --color-text-light: var(--color-light);
+
+  /* background */
+  --background-color-dark: var(--color-dark);
+  --background-color-light: var(--color-light);
+  --background-color-btn: var(--color-1);
+
+  /* spacing */
+  --spacing-primary: 1rem;
+  --spacing-half: calc(var(--spacing-primary) / 2);
+  --spacing-double: calc(var(--spacing-primary) * 2);
+  --spacing-btn: var(--spacing-primary) var(--spacing-double);
+  --spacing-btn-small: var(--spacing-half) var(--spacing-primary);
+
+  /* sizes */
+  --height-header: 70px;
+  --width-logo: 70px;
+
+  /* border */
+  --border: 2px solid var(--color-primary);
+  --border-radius: 5px;
+
+  /* shadow */
+  --box-shadow: rgba(0, 0, 0, 0.35) 0 5px 10px;
+  --drop-shadow: drop-shadow(rgba(0, 0, 0, 0.35) 5px 10px);
+
+  /* transition */
+  --transition-background: background-color 0.3s ease;
 }

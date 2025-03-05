@@ -1,3 +1,52 @@
-body {
-  background-color: var(--background-test2);
+/* GENERAL */
+
+html {
+  font-size: var(--font-size-desktop);
+}
+
+/* HEADER */
+
+nav ul {
+  gap: var(--spacing-double);
+}
+
+nav a {
+  color: var(--color-text-light);
+}
+
+nav a span {
+  display: inline-block;
+}
+
+nav a span:hover {
+  color: var(--color-secondary);
+}
+
+/* MAIN */
+
+/* HERO */
+
+.hero {
+  max-width: 1200px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.hero img {
+  max-width: 540px;
+}
+
+.hero::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* EXTRA PRODUCT */
+
+.cards {
+  margin: 0 auto var(--spacing-double);
+  max-width: calc(1200px - 2rem);
+  justify-content: space-between;
+  flex-direction: row;
 }
